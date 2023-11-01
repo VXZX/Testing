@@ -1,9 +1,9 @@
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
-while (true) {
+
    canvas.width = window.innerWidth;
 canvas.height = window.innerHeight; 
-}
+
 
     
 
