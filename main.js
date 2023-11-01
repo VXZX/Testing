@@ -1,8 +1,12 @@
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
+while (true) {
+   canvas.width = window.innerWidth;
+canvas.height = window.innerHeight; 
+}
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+    
+
 
 var stars = [], // Array that contains the stars
     FPS = 60, // Frames per second
